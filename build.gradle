@@ -1,0 +1,6 @@
+allprojects {
+    group = 'com.whiteboard'
+    version = '0.0.1-SNAPSHOT'
+}
+
+

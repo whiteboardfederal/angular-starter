@@ -1,0 +1,17 @@
+
+plugins {
+  id 'java'
+  id "com.moowork.node" version "1.2.0"
+}
+
+node {
+  version = '14.17.3'
+  npmVersion = '7.20.0'
+  download = false
+}
+
+jar.dependsOn 'npm_run_build'
+
+jar {
+  from 'dist/starter-ui' into 'static'
+}
