@@ -1,3 +1,0 @@
-rootProject.name = 'angular-starter'
-
-include 'starter-api', 'starter-ui'
